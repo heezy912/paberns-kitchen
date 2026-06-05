@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Pabern's Kitchen | Filipino Food Truck Kyle, TX</title>
+  <meta name="description" content="View the full menu at Pabern's Kitchen — plate combos, extra sides, boba smoothies & sodas. Filipino food truck in Kyle, TX. Call 737-877-0957." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <button class="nav__hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="nav__logo">
+      <img src="Logo - Pabern Kitchen Official.png" alt="Pabern's Kitchen" class="nav__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+      <span style="display:none">Pabern's Kitchen</span>
+    </a>
+    <nav class="nav__links">
+      <a href="menu.html" class="active">Menu</a>
+      <a href="about.html">About</a>
+      <a href="order.html" class="cta">Order Now</a>
+    </nav>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileClose">&#x2715;</button>
+    <nav class="mobile-menu__links">
+      <a href="menu.html" class="mobile-menu__link">Menu</a>
+      <a href="about.html" class="mobile-menu__link">About</a>
+      <a href="order.html" class="mobile-menu__link">Order Now</a>
+    </nav>
+  </div>
+  <div class="mobile-menu__overlay" id="mobileOverlay"></div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose">&#x2715;</button>
+    <div class="lightbox__inner">
+      <img src="" alt="" id="lightboxImg" />
+      <div class="lightbox__caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- SPLIT LAYOUT -->
+  <main class="split">
+
+    <!-- LEFT: PHOTO -->
+    <div class="split__photo">
+      <img src="COMBO A - GPT.png" alt="Our Menu" />
+      <div class="split__photo-overlay"></div>
+      <div class="split__photo-label">Our Menu</div>
+    </div>
+
+    <!-- RIGHT: MENU LIST -->
+    <div class="split__content">
+
+      <!-- PLATE COMBOS -->
+      <div class="menu-category">
+        <div class="menu-cat-header">
+          <div class="menu-cat-title"><span>🍱</span> Plate Combos</div>
+          <div class="menu-cat-hours">Best Value</div>
+        </div>
+
+        <div class="menu-item" data-img="COMBO A - GPT.png" data-name="Combo A" data-desc="A hearty combo packed with Filipino flavor.">
+          <div class="menu-item__thumb"><img src="COMBO A - GPT.png" alt="Combo A" /></div>
+          <div class="menu-item__info">
+            <div class="menu-item__name">Combo A</div>
+            <div class="menu-item__desc">Tap to view photo</div>
+          </div>
+          <span class="menu-item__price">$15</span>
+        </div>
+
+        <div class="menu-item" data-img="COMBO B - GPT.png" data-name="Combo B" data-desc="A satisfying mix of our best items.">
+          <div class="menu-item__thumb"><img src="COMBO B - GPT.png" alt="Combo B" /></div>
+          <div class="menu-item__info">
+            <div class="menu-item__name">Combo B</div>
+            <div class="menu-item__desc">Tap to view photo</div>
+          </div>
+          <span class="menu-item__price">$15</span>
+        </div>
+
+        <div class="menu-item" data-img="COMBO C - GPT.png" data-name="Combo C" data-desc="Perfect for a full, filling meal.">
+          <div class="menu-item__thumb"><img src="COMBO C - GPT.png" alt="Combo C" /></div>
+          <div class="menu-item__info">
+            <div class="menu-item__name">Combo C</div>
+            <div class="menu-item__desc">Tap to view photo</div>
+          </div>
+          <span class="menu-item__price">$15</span>
+        </div>
+
+        <div class="menu-item" data-img="COMBO D - GPT.png" data-name="Combo D" data-desc="Our premium combo selection.">
+          <div class="menu-item__thumb"><img src="COMBO D - GPT.png" alt="Combo D" /></div>
+          <div class="menu-item__info">
+            <div class="menu-item__name">Combo D</div>
+            <div class="menu-item__desc">Tap to view photo</div>
+          </div>
+          <span class="menu-item__price">$15</span>
+        </div>
+
+        <div class="menu-item" data-img="Adobo Combo - GPT.png" data-name="Adobo Combo" data-desc="Classic Filipino adobo, homestyle.">
+          <div class="menu-item__thumb"><img src="Adobo Combo - GPT.png" alt="Adobo Combo" /></div>
+          <div class="menu-item__info">
+            <div class="menu-item__name">Adobo Combo</div>
+            <div class="menu-item__desc">Tap to view photo</div>
+          </div>
+          <span class="menu-item__price">$15</span>
+        </div>
+
+        <div class="menu-item" data-img="Shrimp Lover Plate - GPT.png" data-name="Shrimp Lover" data-desc="Juicy shrimp cooked to perfection.">
+          <div class="menu-item__thumb"><img src="Shrimp Lover Plate - GPT.png" alt="Shrimp Lover" /></div>
+          <div class="menu-item__info">
+            <div class="menu-item__name">Shrimp Lover</div>
+            <div class="menu-item__desc">Tap to view photo</div>
+          </div>
+          <span class="menu-item__price">$16</span>
+        </div>
+      </div>
+
+      <!-- EXTRA SIDES -->
+      <div class="menu-category">
+        <div class="menu-cat-header">
+          <div class="menu-cat-title"><span>🥢</span> Extra Sides</div>
+          <div class="menu-cat-hours">Add-ons</div>
+        </div>
+
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Puto Cake</div></div>
+          <span class="menu-item__price">$1.5</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">BBQ Sticks (each)</div></div>
+          <span class="menu-item__price">$3.5</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Fried Rice</div></div>
+          <span class="menu-item__price">$2</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Chicken Pancit</div></div>
+          <span class="menu-item__price">$8</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Pork Adobo</div></div>
+          <span class="menu-item__price">$9</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info">
+            <div class="menu-item__name">Lumpia</div>
+            <div class="menu-item__desc">6 pcs / 12 pcs</div>
+          </div>
+          <span class="menu-item__price">$4.5 / $9</span>
+        </div>
+      </div>
+
+      <!-- BOBA SMOOTHIES -->
+      <div class="menu-category">
+        <div class="menu-cat-header">
+          <div class="menu-cat-title"><span>🧋</span> Boba Smoothies</div>
+          <div class="menu-cat-hours">All $7.5 · Halo-halo $9</div>
+        </div>
+
+        <div class="menu-item" data-img="Mango - Dessert - GPT.png" data-name="Mango Boba Smoothie" data-desc="Sweet mango boba smoothie.">
+          <div class="menu-item__thumb"><img src="Mango - Dessert - GPT.png" alt="Mango" /></div>
+          <div class="menu-item__info"><div class="menu-item__name">Mango</div><div class="menu-item__desc">Tap to view photo</div></div>
+          <span class="menu-item__price">$7.5</span>
+        </div>
+
+        <div class="menu-item" data-img="Strawberry Dessert - GPT.png" data-name="Strawberry Boba Smoothie" data-desc="Fresh strawberry boba smoothie.">
+          <div class="menu-item__thumb"><img src="Strawberry Dessert - GPT.png" alt="Strawberry" /></div>
+          <div class="menu-item__info"><div class="menu-item__name">Strawberry</div><div class="menu-item__desc">Tap to view photo</div></div>
+          <span class="menu-item__price">$7.5</span>
+        </div>
+
+        <div class="menu-item" data-img="Oreo - Dessert - GPT.png" data-name="Oreo Boba Smoothie" data-desc="Creamy Oreo boba smoothie.">
+          <div class="menu-item__thumb"><img src="Oreo - Dessert - GPT.png" alt="Oreo" /></div>
+          <div class="menu-item__info"><div class="menu-item__name">Oreo</div><div class="menu-item__desc">Tap to view photo</div></div>
+          <span class="menu-item__price">$7.5</span>
+        </div>
+
+        <div class="menu-item" data-img="Halo-Halo- Dessert - GPT.png" data-name="Halo-Halo Boba Smoothie" data-desc="The iconic Filipino Halo-Halo boba.">
+          <div class="menu-item__thumb"><img src="Halo-Halo- Dessert - GPT.png" alt="Halo-Halo" /></div>
+          <div class="menu-item__info"><div class="menu-item__name">Halo-Halo</div><div class="menu-item__desc">Tap to view photo</div></div>
+          <span class="menu-item__price">$9</span>
+        </div>
+
+        <div class="menu-item" data-img="Taro Dessert - GPT.png" data-name="Taro Boba Smoothie" data-desc="Creamy taro boba smoothie.">
+          <div class="menu-item__thumb"><img src="Taro Dessert - GPT.png" alt="Taro" /></div>
+          <div class="menu-item__info"><div class="menu-item__name">Taro</div><div class="menu-item__desc">Tap to view photo</div></div>
+          <span class="menu-item__price">$7.5</span>
+        </div>
+        <div class="menu-item" data-img="Advacado Dessert - GPT.png" data-name="Avocado Boba Smoothie" data-desc="Fresh avocado boba smoothie.">
+          <div class="menu-item__thumb"><img src="Advacado Dessert - GPT.png" alt="Avocado" /></div>
+          <div class="menu-item__info"><div class="menu-item__name">Avocado</div><div class="menu-item__desc">Tap to view photo</div></div>
+          <span class="menu-item__price">$7.5</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Extra Boba</div></div>
+          <span class="menu-item__price">$1</span>
+        </div>
+      </div>
+
+      <!-- SODA DRINKS -->
+      <div class="menu-category">
+        <div class="menu-cat-header">
+          <div class="menu-cat-title"><span>🥤</span> Soda Drinks</div>
+          <div class="menu-cat-hours">Cold &amp; Refreshing</div>
+        </div>
+
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Water</div></div>
+          <span class="menu-item__price">$1</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Coke Regular</div></div>
+          <span class="menu-item__price">$1.5</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Coke Diet</div></div>
+          <span class="menu-item__price">$1.5</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Sprite</div></div>
+          <span class="menu-item__price">$1.5</span>
+        </div>
+        <div class="menu-item menu-item--no-img">
+          <div class="menu-item__info"><div class="menu-item__name">Dr Pepper</div></div>
+          <span class="menu-item__price">$1.5</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">Pabern's Kitchen</a>
+        <p class="footer__tagline">Great Moments With Great Tastes</p>
+        <a href="tel:7378770957" class="footer__phone">📞 737-877-0957</a>
+        <p class="footer__address">📍 402 S. Old Hwy 81, Kyle, TX 78640</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="order.html">Order Now</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/pabern.s.kitchen.2025" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/pabernskitchen/" target="_blank" rel="noopener">Instagram</a>
+        <p class="footer__copy">&copy; 2025 Pabern's Kitchen · Kyle, TX</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY CALL BUTTON (mobile) -->
+  <a href="tel:7378770957" class="sticky-call">
+    📞 <span>Call to Order</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

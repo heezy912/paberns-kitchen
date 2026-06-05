@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Now — Pabern's Kitchen | Filipino Food Truck Kyle, TX</title>
+  <meta name="description" content="Order from Pabern's Kitchen or book us for catering. Call or text 737-877-0957, or message us on Facebook. Located at 402 S. Old Hwy 81, Kyle, TX." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <button class="nav__hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="nav__logo">
+      <img src="Logo - Pabern Kitchen Official.png" alt="Pabern's Kitchen" class="nav__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+      <span style="display:none">Pabern's Kitchen</span>
+    </a>
+    <nav class="nav__links">
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="order.html" class="cta active">Order Now</a>
+    </nav>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileClose">&#x2715;</button>
+    <nav class="mobile-menu__links">
+      <a href="menu.html" class="mobile-menu__link">Menu</a>
+      <a href="about.html" class="mobile-menu__link">About</a>
+      <a href="order.html" class="mobile-menu__link">Order Now</a>
+    </nav>
+  </div>
+  <div class="mobile-menu__overlay" id="mobileOverlay"></div>
+
+  <!-- SPLIT LAYOUT -->
+  <main class="split">
+
+    <!-- LEFT: PHOTO -->
+    <div class="split__photo">
+      <img src="Truck Photo - GPT.png" alt="Order Now" />
+      <div class="split__photo-overlay"></div>
+      <div class="split__photo-label">Order Now</div>
+    </div>
+
+    <!-- RIGHT: CONTACT -->
+    <div class="split__content">
+
+      <div class="contact-hero">
+        <div class="contact-hero__label">/ Ready to Order?</div>
+        <h2 class="contact-hero__heading">Give Us a Call</h2>
+        <p class="contact-hero__sub">The fastest way to place an order or book us for your next event is to call or message us directly.</p>
+      </div>
+
+      <!-- PHONE CTA -->
+      <a href="tel:7378770957" class="contact-phone">
+        <div class="contact-phone__icon">📞</div>
+        <div class="contact-phone__info">
+          <span class="contact-phone__label">Call or Text Us</span>
+          <span class="contact-phone__number">737-877-0957</span>
+        </div>
+        <div class="contact-phone__arrow">→</div>
+      </a>
+
+      <!-- FACEBOOK CTA -->
+      <a href="https://www.facebook.com/pabern.s.kitchen.2025" target="_blank" rel="noopener" class="contact-facebook">
+        <div class="contact-facebook__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+        </div>
+        <div class="contact-facebook__info">
+          <span class="contact-facebook__label">Message Us on Facebook</span>
+          <span class="contact-facebook__handle">Pabern's Kitchen</span>
+        </div>
+        <div class="contact-facebook__arrow">→</div>
+      </a>
+
+      <!-- HOURS & LOCATION -->
+      <div class="contact-info-grid">
+        <div class="contact-info-card">
+          <div class="contact-info-card__icon">🕐</div>
+          <div class="contact-info-card__label">Hours</div>
+          <div class="contact-info-card__lines">
+            <p>Mon – Fri: 11 AM – 7 PM</p>
+            <p>Saturday: 11 AM – 6 PM</p>
+            <p class="contact-closed">Sunday: Closed</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-card__icon">📍</div>
+          <div class="contact-info-card__label">Location</div>
+          <div class="contact-info-card__lines">
+            <p>402 S. Old Hwy 81</p>
+            <p>Kyle, TX 78640</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">Pabern's Kitchen</a>
+        <p class="footer__tagline">Great Moments With Great Tastes</p>
+        <a href="tel:7378770957" class="footer__phone">📞 737-877-0957</a>
+        <p class="footer__address">📍 402 S. Old Hwy 81, Kyle, TX 78640</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="order.html">Order Now</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/pabern.s.kitchen.2025" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/pabernskitchen/" target="_blank" rel="noopener">Instagram</a>
+        <p class="footer__copy">&copy; 2025 Pabern's Kitchen · Kyle, TX</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY CALL BUTTON (mobile) -->
+  <a href="tel:7378770957" class="sticky-call">
+    📞 <span>Call to Order</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heezy912.github.io/paberns-kitchen/sitemap.xml

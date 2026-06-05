@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Pabern's Kitchen | Filipino Food Truck Kyle, TX</title>
+  <meta name="description" content="Meet Bernie, owner of Pabern's Kitchen. Born and raised in the Philippines, she brings authentic Filipino home cooking to Kyle, TX. Visit us at 402 S. Old Hwy 81." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <button class="nav__hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="nav__logo">
+      <img src="Logo - Pabern Kitchen Official.png" alt="Pabern's Kitchen" class="nav__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+      <span style="display:none">Pabern's Kitchen</span>
+    </a>
+    <nav class="nav__links">
+      <a href="menu.html">Menu</a>
+      <a href="about.html" class="active">About</a>
+      <a href="order.html" class="cta">Order Now</a>
+    </nav>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileClose">&#x2715;</button>
+    <nav class="mobile-menu__links">
+      <a href="menu.html" class="mobile-menu__link">Menu</a>
+      <a href="about.html" class="mobile-menu__link">About</a>
+      <a href="order.html" class="mobile-menu__link">Order Now</a>
+    </nav>
+  </div>
+  <div class="mobile-menu__overlay" id="mobileOverlay"></div>
+
+  <!-- SPLIT LAYOUT -->
+  <main class="split">
+
+    <!-- LEFT: PHOTO -->
+    <div class="split__photo">
+      <img src="Owner Photo - GPT.png" alt="Bernie, Owner of Pabern's Kitchen" />
+      <div class="split__photo-overlay"></div>
+      <div class="split__photo-label">About Us</div>
+    </div>
+
+    <!-- RIGHT: ABOUT PANELS -->
+    <div class="split__content">
+
+      <!-- MEET BERNIE -->
+      <div class="about-panel about-panel--owner">
+        <div class="about-panel__label">Meet the Owner</div>
+        <div class="about-panel__title">Hi, I'm Bernie</div>
+        <p class="about-panel__quote">
+          "I'm Bernie, born and raised from the Philippines. Cooking is my passion, kitchen is my happy place to play."
+        </p>
+        <p class="about-panel__text">
+          Pabern's Kitchen is her love letter to Filipino home cooking — bold, comforting, and made from the heart. Every dish on the truck carries the flavors she grew up with, brought straight to Kyle, TX.
+        </p>
+      </div>
+
+      <!-- FIND US -->
+      <div class="about-panel">
+        <div class="about-panel__label">Find Us</div>
+        <div class="about-panel__title">Our Location</div>
+        <div class="about-panel__hours">
+          <p>📍 402 S. Old Hwy 81</p>
+          <p>Kyle, TX 78640</p>
+          <p style="margin-top:8px;">📞 <a href="tel:7378770957" style="color:inherit;text-decoration:none;">737-877-0957</a></p>
+        </div>
+        <a href="order.html" class="about-panel__book-btn">Order Now &rarr;</a>
+        <div class="about-panel__map">
+          <iframe
+            src="https://maps.google.com/maps?q=402+S+Old+Hwy+81,+Kyle,+TX+78640&output=embed"
+            width="100%" height="200" style="border:0;border-radius:10px;margin-top:14px;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- HOURS -->
+      <div class="about-panel">
+        <div class="about-panel__label">Hours of Operation</div>
+        <div class="about-panel__title">When We're Rolling</div>
+        <div class="about-panel__hours">
+          <p>Monday – Friday: 11:00 AM – 7:00 PM</p>
+          <p>Saturday: 11:00 AM – 6:00 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+
+      <div class="about-panel__img-grid">
+        <img src="COMBO B - GPT.png" alt="Food" />
+        <img src="Pacit Plate - GPT.png" alt="Food" />
+      </div>
+
+      <div class="about-panel">
+        <div class="about-panel__label">Our Food Philosophy</div>
+        <div class="about-panel__title">Real Ingredients. Real Flavor.</div>
+        <p class="about-panel__text">
+          We believe great food doesn't need to be complicated. Pabern's Kitchen uses fresh, quality ingredients to craft Filipino-inspired dishes that are as satisfying as a home-cooked meal — served fast, served with pride.
+        </p>
+      </div>
+
+      <div class="about-panel">
+        <div class="about-panel__label">Review Us On</div>
+        <div class="about-panel__title">Google</div>
+        <div class="stars">★★★★★ <span style="font-family:'Inter',sans-serif;font-size:.75rem;color:rgba(255,255,255,.4);letter-spacing:.06em;">4.9 · 78 Reviews</span></div>
+        <p class="about-panel__text" style="margin-top:10px;">"Pabern's Kitchen in Kyle, TX is a hidden gem! The food was fresh, flavorful, and absolutely delicious!"</p>
+        <a href="https://g.co/kgs/pabernsk" target="_blank" rel="noopener" class="about-panel__book-btn" style="margin-top:12px;">Leave a Review on Google →</a>
+      </div>
+
+      <div class="about-panel">
+        <div class="about-panel__label">Social Media</div>
+        <div class="about-panel__title">Follow Our Journey</div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/pabern.s.kitchen.2025" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/pabernskitchen/" target="_blank" rel="noopener">Instagram</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">Pabern's Kitchen</a>
+        <p class="footer__tagline">Great Moments With Great Tastes</p>
+        <a href="tel:7378770957" class="footer__phone">📞 737-877-0957</a>
+        <p class="footer__address">📍 402 S. Old Hwy 81, Kyle, TX 78640</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="order.html">Order Now</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/pabern.s.kitchen.2025" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/pabernskitchen/" target="_blank" rel="noopener">Instagram</a>
+        <p class="footer__copy">&copy; 2025 Pabern's Kitchen · Kyle, TX</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY CALL BUTTON (mobile) -->
+  <a href="tel:7378770957" class="sticky-call">
+    📞 <span>Call to Order</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
